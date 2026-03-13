@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &amp; Schedule | Forge &amp; Flux Consulting</title>
+  <meta name="description" content="Schedule a free discovery call with Forge &amp; Flux Consulting. We'll assess your current state and show you exactly what an M365-native system would look like for your organization." />
+  <link rel="canonical" href="https://forgefluxconsulting.com/contact.html" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Calendly inline widget CSS -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+
+  <!-- Shared styles -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a href="index.html" class="nav-logo" aria-label="Forge &amp; Flux Consulting — Home">
+        <img src="assets/logo.svg" alt="Forge &amp; Flux Consulting" height="40" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+        <span class="nav-logo-text" style="display:none">Forge &amp; Flux</span>
+      </a>
+
+      <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quality-systems.html">Quality Systems</a></li>
+        <li><a href="innovation.html">Innovation</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <a href="#" class="btn-primary nav-cta" onclick="openCalendly(); return false;">Schedule a Call</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       PAGE HERO
+  ============================================================ -->
+  <section class="page-hero" aria-labelledby="contact-hero-heading">
+    <div class="container">
+      <p class="label">Let's Talk</p>
+      <h1 id="contact-hero-heading">Let's Build Your System.</h1>
+      <p class="lead">Schedule a free discovery call. We'll assess your current state, understand your goals, and outline exactly what an M365-native system would look like for your organization.</p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT LAYOUT: CALENDLY + SIDEBAR
+  ============================================================ -->
+  <section class="section" aria-labelledby="schedule-heading">
+    <div class="container contact-layout">
+
+      <!-- Calendly inline embed -->
+      <div class="contact-calendar">
+        <h2 id="schedule-heading" style="margin-bottom:1.5rem">Schedule a Free Discovery Call</h2>
+        <div
+          class="calendly-inline-widget"
+          data-url="https://calendly.com/sam-forgefluxconsulting/30min?hide_landing_page_details=1&hide_gdpr_banner=1"
+          aria-label="Calendly scheduling widget"
+        ></div>
+        <script type="text/javascript">
+          // Initialize the inline widget after the Calendly script loads
+          window.addEventListener('load', function () {
+            if (typeof Calendly !== 'undefined' && Calendly.initInlineWidgets) {
+              Calendly.initInlineWidgets();
+            }
+          });
+        </script>
+      </div>
+
+      <!-- Contact sidebar -->
+      <aside class="contact-sidebar" aria-label="Contact information">
+        <div class="contact-info-block">
+          <h3>What to Expect</h3>
+          <p>A focused 30-minute discovery conversation — no pressure, no pitch deck. We'll talk through:</p>
+          <ul class="mission-list" style="margin-top:1rem">
+            <li>Your current quality and/or technical development process</li>
+            <li>The specific challenges or gaps you're experiencing</li>
+            <li>What an M365-native solution would look like for your organization</li>
+            <li>Whether and how Forge &amp; Flux can help</li>
+          </ul>
+          <p style="margin-top:1.25rem">If there's a fit, we'll outline a proposed engagement. If not, you'll still walk away with useful perspective on your current state.</p>
+        </div>
+
+        <div class="contact-info-block" style="margin-top:2rem">
+          <h3>Prefer to Reach Out Directly?</h3>
+          <p>Send us an email and we'll get back to you within one business day.</p>
+          <a href="mailto:contact@forgefluxconsulting.com" class="contact-email-link">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="vertical-align:middle;margin-right:0.5rem">
+              <rect x="1" y="3" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5" fill="none"/>
+              <path d="M1 5l8 5 8-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            contact@forgefluxconsulting.com
+          </a>
+        </div>
+
+        <div class="contact-info-block" style="margin-top:2rem">
+          <h3>Which Service Is Right for You?</h3>
+          <p>Not sure where to start? Here's a quick guide:</p>
+          <div class="detail-card" style="margin-top:1rem;padding:1.25rem">
+            <h4 style="font-size:0.95rem;margin-bottom:0.5rem">Quality Systems (ISO 9001)</h4>
+            <p style="font-size:0.875rem;margin:0">You need certification, or you're certified but your QMS isn't being used. You want a system that creates operational value — not just compliance documentation.</p>
+            <a href="quality-systems.html" class="link-arrow" style="margin-top:0.75rem;font-size:0.875rem">Learn more</a>
+          </div>
+          <div class="detail-card" style="margin-top:1rem;padding:1.25rem">
+            <h4 style="font-size:0.95rem;margin-bottom:0.5rem">Innovation / InnOps</h4>
+            <p style="font-size:0.875rem;margin:0">You have a technical development program that isn't moving fast enough or delivering the ROI it should. You want structure that empowers your team — not slows them down.</p>
+            <a href="innovation.html" class="link-arrow" style="margin-top:0.75rem;font-size:0.875rem">Learn more</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo" aria-label="Forge &amp; Flux Consulting">
+          <img src="assets/logo.svg" alt="Forge &amp; Flux Consulting" height="36" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'" />
+          <span class="nav-logo-text" style="display:none">Forge &amp; Flux</span>
+        </a>
+        <p>High-impact Quality Systems and Technical Development frameworks built natively in Microsoft 365.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <p class="footer-nav__heading">Services</p>
+        <ul role="list">
+          <li><a href="quality-systems.html">Quality Systems</a></li>
+          <li><a href="innovation.html">Innovation / InnOps</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Footer company links">
+        <p class="footer-nav__heading">Company</p>
+        <ul role="list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#" onclick="openCalendly(); return false;">Schedule a Call</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Forge &amp; Flux Consulting LLC. All rights reserved.</p>
+        <p>Built in Microsoft 365. Delivered with purpose.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
